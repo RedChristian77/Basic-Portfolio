@@ -1,0 +1,15 @@
+*{
+    background-image: url("/assets/images/grey_sandbag.png");
+}
+header{
+    margin: auto;
+    padding:10px;
+    margin-left: 15%;
+    margin-right:15%;
+}
+.nameleft{
+    float: left;
+}
+.headerright{
+    float:right;
+}
