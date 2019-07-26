@@ -1,15 +1,63 @@
-*{
-    background-image: url("/assets/images/grey_sandbag.png");
-}
 header{
     margin: auto;
     padding:10px;
-    margin-left: 15%;
-    margin-right:15%;
+    margin-right:calc((100% - (960px)) / 2);
+    margin-left:calc((100% - (960px)) / 2);
+    background-color:#ffffff;
+    border-color:#cccccc;
+    font-family: 'georgia', Times, Times New Roman, serif;
+    
 }
 .nameleft{
     float: left;
+    background-color:#4aaaa5;
+    padding:15px;
 }
 .headerright{
     float:right;
+    text-align:bottom;
+    padding:15px;
+}
+.bottompage{
+    clear:both;
+    width: 100%;
+    min-height: 100vh;
+    border-top:2px solid #d3d3d3;
+    background-image: url("../images/gray_sand.png");
+}
+.aboutmesec{
+    margin-left:15%;
+    margin-right:15%;
+    width:960px;
+    background-color:whit#ffffff;
+    border-color:#dddddd;
+}
+.aboutmetop{
+    float:left;
+    margin:5px;
+    background:#fff;
+    width:960px;
+}
+.aboutme{
+    clear:both;
+    border-top:2px solid lightgray;
+    height:500px;
+    background-color:#fff;
+}
+.selfiephoto{
+    float:left;
+    margin:5px;
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+*{
+    font-family: 'Arial', 'Helvetica neue', Arial, Helvetica, sans-serif;
+}
+.wordsaboutme{
+    letter-spacing: 5px;
+    font-size:25px;
+    padding:3px;
+    margin:3px;
 }
